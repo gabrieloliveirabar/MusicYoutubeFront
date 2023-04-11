@@ -64,6 +64,7 @@ export const SerchMusic = styled.div`
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
+        color: white;
         font-family: 'Roboto', sans-serif;
     }
     input:hover{
