@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomeStyled = styled.div`
+export const HomeStyled = styled.main`
     height: 100vh;
     width: 100vw;
     background-color: #1E1E1E;;
@@ -74,6 +74,8 @@ export const SerchMusic = styled.div`
         background: #2D2A2A;
         border-radius: 0px 5px 5px 5px;
         border: 1px solid var(--color-red);
+
+        cursor: pointer;
     }
 `
 export const ButtonStyled = styled.button`
