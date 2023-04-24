@@ -7,10 +7,7 @@ export default createGlobalStyle`
     --color-black: #1E1E1E
    
     font-size: 60%; 
-    --toastify-icon-color-success: var(--color-success);
-    --toastify-icon-color-error: var(--color-error);
-    --toastify-color-progress-success: var(--color-success);
-    --toastify-color-progress-error: var(--color-error);
+ 
   }
   @media (min-width: 700px) {
     :root {
@@ -33,8 +30,7 @@ export default createGlobalStyle`
     height: 100%;
   }
   body {
-    background: var(--color-gray-4);
-    color: var(--color-gray-1);
+    
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
@@ -44,7 +40,7 @@ export default createGlobalStyle`
   }
   h1, h2, h3 {
     font-weight: bold;
-    color: var(--color-gray-0)
+    
   }
   h4,h5, h6, strong {
     font-weight: 500;
@@ -52,12 +48,7 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
-  h1{
-    color: var(--color-primary)
-  }
-  h4{
-    color: var(--color-error);
-  }
+ 
   a {
     text-decoration: none;
     color:white;
